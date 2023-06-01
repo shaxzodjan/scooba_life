@@ -1,0 +1,177 @@
+.helppanel{
+    display: block;
+    width: 99vw;
+    height: 75vh;
+    background: #ffff;
+    margin-top: -1vh;
+}
+
+.inTouch{
+    height: 37vh;
+    width: 89vw;
+    /* background: yellow; */
+    padding: 2vh 5vw;
+    display: flex;
+}
+
+.touchLeft{
+    flex: 1;
+    display: block;
+    /* background: red; */
+    padding: 0 1vw;
+}
+
+.another{
+    padding: 0 1vw;
+    flex: 1;
+}
+
+.lagatip a{
+    font-family: 'Righteous', cursive;
+    color: #14447c;
+    font-size: 40px;
+    line-height: 48px;
+    text-decoration: none;
+}
+
+.yozuv{
+    font-size: 16px;
+    line-height: 24px;
+    color: #3a4268;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+}
+
+.shakl{
+    width: 50px;
+    height: 50px;
+    /* background: yellow; */
+    border-radius: 50%;
+    border: 3px solid#3a4268;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shakl img{
+    width: 35px;
+    height: 35px;
+}
+
+.shakllar{
+    display: flex;
+    margin-top: 5vh;
+}
+
+#insta{
+    margin-left: 1vw;
+}
+
+.touchCenter{
+    flex: 1;
+    /* background: #a3c3da; */
+    display: block;
+    padding: 0 1vw;
+}
+
+.getin{
+    font-family: 'Varela Round', sans-serif;
+    color: #3a4268;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.scoobaa{
+    font-size: 16px;
+    font-family: 'Righteous', cursive;
+    color: #3a4268;
+}
+
+.locationn{
+    display: flex;
+    font-size: 16px;
+    font-family: 'Varela Round', sans-serif;
+    color: #3a4268;
+    margin-top: 10px;
+}
+
+.locationn img{
+    height: 16px;
+    margin-right: 5px;
+}
+.anyquestions{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 32px;
+    margin-top: 3vh;
+    color: #14449d;
+    text-align: center;
+    font-weight: 700;
+}
+
+.provide{
+    font-size: 16px;
+    font-family: 'Varela Round', sans-serif;
+    color: #3a4268;
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+form input{
+    width: 220px;
+    height: 60px;
+    border: 3px solid #0740ab;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    margin-top: 5px;
+    transition: 0.5s;
+}
+
+form input:hover{
+    width: 225px;
+    height: 65px;
+    border: 3px solid #0049e4;
+}
+
+form input:focus{
+    border: 2px solid #0740ab;
+    outline: none;
+}
+
+::placeholder{
+    color: #0049e4;
+    font-size: 18px;
+}
+.sendit{
+    width: 220px;
+    height: 60px;
+    border: 2px solid #0049e4;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    background-color: #0740ab;
+    margin-left: 15px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 5px;
+}
+
+.leave{
+    font-size: 16px;
+    font-family: 'Varela Round', sans-serif;
+    color: #3a4268;
+    text-align: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
